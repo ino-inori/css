@@ -1,4 +1,15 @@
-awefae
-efara4
-a4ta43
-regargsert5
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>
+</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("#pagetop").click(function(){
+        $("html,body").animate({scrollTop:0},'nomal');
+        return false;
+    });
+});
+</script>
+</head>
